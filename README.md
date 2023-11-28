@@ -57,7 +57,7 @@ This project is licensed under the terms of the **[MIT License](https://opensour
 
 ## Contributing
 
-Contributions to the Book Search Engine are welcome. Please contact the repository owner for more information.
+Daniel Merkin
 
 ## Tests
 
