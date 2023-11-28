@@ -1,31 +1,71 @@
-# Book-Search-Engine
+# Book Search Engine
 
-GIVEN a book search engine
-WHEN I load the search engine
-THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-WHEN I click on the Search for Books menu option
-THEN I am presented with an input field to search for books and a submit button
-WHEN I am not logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-WHEN I click on the Login/Signup menu option
-THEN a modal appears on the screen with a toggle between the option to log in or sign up
-WHEN the toggle is set to Signup
-THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-WHEN the toggle is set to Login
-THEN I am presented with two inputs for an email address and a password and login button
-WHEN I enter a valid email address and create a password and click on the signup button
-THEN my user account is created and I am logged in to the site
-WHEN I enter my account’s email address and password and click on the login button
-THEN I the modal closes and I am logged in to the site
-WHEN I am logged in to the site
-THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-WHEN I am logged in and enter a search term in the input field and click the submit button
-THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-WHEN I click on the Save button on a book
-THEN that book’s information is saved to my account
-WHEN I click on the option to see my saved books
-THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-WHEN I click on the Remove button on a book
-THEN that book is deleted from my saved books list
-WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+<div align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" width="100">
+</div>
+
+## Table of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Description
+
+The Book Search Engine is a web application that allows users to search for books, create an account, and save their favorite books. The application provides a user-friendly interface with the following features:
+
+### Key Features:
+
+- **Home:** Upon loading the search engine, users are presented with a menu featuring options to "Search for Books" and "Login/Signup." The interface includes an input field for book searches and a submit button.
+
+- **Search for Books:** Clicking on the "Search for Books" menu option reveals an input field and a submit button. Users can enter a search term and click the submit button to view search results, including a book's title, author, description, image, and a link to the book on the Google Books site.
+
+- **Login/Signup:** Clicking on the "Login/Signup" menu option triggers a modal with a toggle between login and signup options.
+
+  - **Signup:** When the toggle is set to "Signup," users are presented with inputs for a username, email address, password, and a signup button.
+
+  - **Login:** When the toggle is set to "Login," users are presented with inputs for an email address, password, and a login button.
+
+- **User Authentication:** Upon entering a valid email address and creating a password, users can create an account. Subsequently, users can log in with their email and password. Once logged in, the menu options change to "Search for Books," "Saved Books," and "Logout."
+
+- **Save and Remove Books:** While logged in, users can save search results to their account by clicking a "Save" button. The "Saved Books" option displays all saved books with the ability to remove a book.
+
+- **Logout:** Clicking on the "Logout" button logs the user out and returns them to the home menu.
+
+## Usage
+
+![Homepage](./client/src/assets/googlebookssearch.png)
+
+To use the Book Search Engine, follow these steps:
+
+1. Access the deployed application: [Book Search Engine](https://shielded-beyond-73145-20d419db12a1.herokuapp.com/).
+2. Navigate the interface using the "Search for Books" and "Login/Signup" options.
+3. Search for books, create an account, and save favorite books.
+4. Log in and access the "Saved Books" option to manage saved books.
+
+## Installation
+
+No installation is required for the Book Search Engine as it is a web-based application. Simply access the deployed application link.
+
+## License
+
+This project is licensed under the terms of the **[MIT License](https://opensource.org/licenses/MIT)**.
+
+## Contributing
+
+Contributions to the Book Search Engine are welcome. Please contact the repository owner for more information.
+
+## Tests
+
+No specific testing information is provided at this time.
+
+## Questions
+
+If you have any questions or suggestions about this project, please feel free to contact me:
+
+- GitHub: [@dmerk2](https://github.com/dmerk2)
+- Email: dan.merkin@gmail.com
